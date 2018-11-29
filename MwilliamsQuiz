@@ -463,14 +463,14 @@ public class Quiz
         {  
             imageLabel.setIcon(new ImageIcon("C:\\Users\\marco\\OneDrive\\"
             + "(DBMS2)(JAVA)(C#)(SAD1)"
-            + "\\JAVA\\Assignment\\Assignment2\\madrid.png"));
+            + "\\JAVA\\Assignment\\Assignment2\\TATA.png"));
      
-            Q.setText(" Which one among these is not a primitive datatype?");
+            Q.setText("Name this Auto Logo?");
             Q2.setText("Choose the correct answer");
-            rb[0].setText("int");
-            rb[1].setText("float");
-            rb[2].setText("boolean");
-            rb[3].setText("char");
+            rb[0].setText("Tesla");
+            rb[1].setText("TATA");
+            rb[2].setText("Tuscan");
+            rb[3].setText("Lincoln");
            
         }
          
@@ -481,10 +481,10 @@ public class Quiz
             + "\\JAVA\\Assignment\\Assignment2\\cat.png"));
             
             Q.setText("Which class is available to all the class automatically?");  
-            rb[0].setText("Swing");
-            rb[1].setText("Applet");
-            rb[2].setText("Object");
-            rb[3].setText("ActionEvent");  
+            rb[0].setText("BMW");
+            rb[1].setText("Toyota");
+            rb[2].setText("Ford");
+            rb[3].setText("Mercedez Benz");  
             
        
         }  
