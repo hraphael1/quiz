@@ -480,7 +480,7 @@ public class Quiz
             + "(DBMS2)(JAVA)(C#)(SAD1)"
             + "\\JAVA\\Assignment\\Assignment2\\cat.png"));
             
-            Q.setText("Which class is available to all the class automatically?");  
+            Q.setText("Which auto company started the first assembly line?");  
             rb[0].setText("BMW");
             rb[1].setText("Toyota");
             rb[2].setText("Ford");
@@ -633,7 +633,7 @@ public class Quiz
             System.out.println("Your choice:" + ans[0]);
             System.out.println();
             
-            System.out.println("Question 2: Which class is available to all the class automatically?");  
+            System.out.println("Question 2: Which auto company started the first assembly line?");  
              System.out.println(" Answer: Ford");
             System.out.println("Your choice:" +  ans[1]);
             System.out.println();
@@ -670,14 +670,12 @@ public class Quiz
             System.out.println("Your choice:" +  ans[7]);
             System.out.println();
             
-            System.out.println("Question 9: What is the name vehicle used on the moon by astronauts?"
-            + "in Applet class?");  
+            System.out.println("Question 9: What is the name vehicle used on the moon by astronauts?");  
             System.out.println("Answer: Lunar Rover");
             System.out.println("Your choice:" +  ans[8]);
             System.out.println(); 
             
-            System.out.println("Question 10: Name this Auto Part: "
-            +"a valid component?"); 
+            System.out.println("Question 10: Name this Auto Part: ); 
             System.out.println("Answer: Spark Plug");  
             System.out.println("Your choice:" +  ans[9]);
             System.out.println();
