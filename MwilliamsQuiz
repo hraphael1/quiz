@@ -628,14 +628,13 @@ public class Quiz
     public void displayAnswers()
     {
   
-            System.out.println(" Question 1: Which one among these is not a primitive datatype?");
-            System.out.println(" Answer: float");
+            System.out.println(" Question 1: Name this Auto Logo?");
+            System.out.println(" Answer: "TATA");
             System.out.println("Your choice:" + ans[0]);
             System.out.println();
             
-            System.out.println("Question 2: Which class is available to all" + 
-            "the class automatically?");  
-             System.out.println(" Answer: Object");
+            System.out.println("Question 2: Which class is available to all the class automatically?");  
+             System.out.println(" Answer: Ford");
             System.out.println("Your choice:" +  ans[1]);
             System.out.println();
             
