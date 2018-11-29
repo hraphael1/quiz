@@ -463,14 +463,14 @@ public class Quiz
         {  
             imageLabel.setIcon(new ImageIcon("C:\\Users\\marco\\OneDrive\\"
             + "(DBMS2)(JAVA)(C#)(SAD1)"
-            + "\\JAVA\\Assignment\\Assignment2\\tata.png"));
+            + "\\JAVA\\Assignment\\Assignment2\\madrid.png"));
      
-            Q.setText("Name this Auto Logo?");
+            Q.setText(" Which one among these is not a primitive datatype?");
             Q2.setText("Choose the correct answer");
-            rb[0].setText("Tuscan");
-            rb[1].setText("Tata");
-            rb[2].setText("Lincoln");
-            rb[3].setText("Tesla");
+            rb[0].setText("int");
+            rb[1].setText("float");
+            rb[2].setText("boolean");
+            rb[3].setText("char");
            
         }
          
@@ -478,13 +478,13 @@ public class Quiz
         {  
             imageLabel.setIcon(new ImageIcon("C:\\Users\\marco\\OneDrive\\"
             + "(DBMS2)(JAVA)(C#)(SAD1)"
-            + "\\JAVA\\Assignment\\Assignment2\\ford.jpg"));
+            + "\\JAVA\\Assignment\\Assignment2\\cat.png"));
             
-            Q.setText("Which auto mobile company started the first assembly line?");  
-            rb[0].setText("Mercedez Benz");
-            rb[1].setText("Toyota");
-            rb[2].setText("Ford");
-            rb[3].setText("BMW");  
+            Q.setText("Which class is available to all the class automatically?");  
+            rb[0].setText("Swing");
+            rb[1].setText("Applet");
+            rb[2].setText("Object");
+            rb[3].setText("ActionEvent");  
             
        
         }  
@@ -493,26 +493,26 @@ public class Quiz
         {  
              imageLabel.setIcon(new ImageIcon("C:\\Users\\marco\\OneDrive\\"
              + "(DBMS2)(JAVA)(C#)(SAD1)"
-            + "\\JAVA\\Assignment\\Assignment2\\dog.png"));
+            + "\\JAVA\\Assignment\\Assignment2\\mb.png"));
             
-            Q.setText("Which package is directly available to our class without importing it?");  
-            rb[0].setText("swing");
-            rb[1].setText("applet");
-            rb[2].setText("net");
-            rb[3].setText("lang");  
+            Q.setText("Mercedes cars belong to which Country??");  
+            rb[0].setText("U.S.A");
+            rb[1].setText("FRANCE");
+            rb[2].setText("GREMANY");
+            rb[3].setText("JAPAN");  
         }  
         
         if(current==3)  
         {  
              imageLabel.setIcon(new ImageIcon("C:\\Users\\marco\\OneDrive\\"
              + "(DBMS2)(JAVA)(C#)(SAD1)"
-            + "\\JAVA\\Assignment\\Assignment2\\barca.png"));
+            + "\\JAVA\\Assignment\\Assignment2\convertible.png\"));
             
-            Q.setText("String class is defined in which package?");  
-            rb[0].setText("lang");
-            rb[1].setText("Swing");
-            rb[2].setText("Applet");
-            rb[3].setText("awt");  
+            Q.setText("What is called the tuype of body of a car, of which the top is fabric and could be folded down??");  
+            rb[0].setText("CONVERTIBLE");
+            rb[1].setText("RETRACTABLE");
+            rb[2].setText("FOLDABLES");
+            rb[3].setText("REMOVABLE");  
         }  
         
         if(current==4)  
@@ -628,24 +628,25 @@ public class Quiz
     public void displayAnswers()
     {
   
-            System.out.println(" Question 1:Name this Auto Logo");
-            System.out.println(" Answer: TATA");
+            System.out.println(" Question 1: Which one among these is not a primitive datatype?");
+            System.out.println(" Answer: float");
             System.out.println("Your choice:" + ans[0]);
             System.out.println();
             
-            System.out.println("Question 2: Which auto company started the first assembly line?");  
-             System.out.println(" Answer: Ford");
+            System.out.println("Question 2: Which class is available to all" + 
+            "the class automatically?");  
+             System.out.println(" Answer: Object");
             System.out.println("Your choice:" +  ans[1]);
             System.out.println();
             
-            System.out.println("Question 3: Which package is directly available to our" + 
+            System.out.println("Question 3: Mercedes cars belong to which Country" + 
             "class without importing it?");  
-             System.out.println(" Answer: lang"); 
+             System.out.println(" Answer: GERMANY"); 
              System.out.println("Your choice:" +  ans[2]);
              System.out.println();
             
-            System.out.println("Question 4: String class is defined in which package?");  
-             System.out.println(" Answer:  lang");
+            System.out.println("Question 4: What is called the type of body of a car, which the top is fabric and could be folded down?");  
+             System.out.println(" Answer:  CONVERTIBLE");
              System.out.println("Your choice:" +  ans[3]);
              System.out.println();
             
