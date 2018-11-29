@@ -519,7 +519,7 @@ public class Quiz
         {  
              imageLabel.setIcon(new ImageIcon("C:\Users\Alberth Mckenzie\Desktop\quiz\\stepney.jpg"));
             
-            Q.setText("What is a Stepney"?");  
+            Q.setText("What is a Stepney?");  
             rb[0].setText("A small tyre for mini vehicle");
             rb[1].setText("A tyre used at a garage");
             rb[2].setText("A spare tyre");
@@ -530,7 +530,7 @@ public class Quiz
         {  
              imageLabel.setIcon(new ImageIcon("C:\Users\Alberth Mckenzie\Desktop\quiz\\delorean.jpg"));
             
-            Q.setText("Name the Science Fiction movie this car appeared in??");  
+            Q.setText("Name the Science Fiction movie this car appeared in?");  
             rb[0].setText("Back to the past");
             rb[1].setText("Quantom Leap");
             rb[2].setText("Back to the Future");
@@ -645,13 +645,13 @@ public class Quiz
              System.out.println("Your choice:" +  ans[3]);
              System.out.println();
             
-            System.out.println("Question 5: Which institute is best for java coaching?");  
-            System.out.println("Answer: SSS IT");
+            System.out.println("Question 5: What is a Stepney?");  
+            System.out.println("Answer:A spare tyre");
             System.out.println("Your choice:" +  ans[4]);
             System.out.println();
              
-            System.out.println("Question 6: Which one among these is not a keyword?");  
-            System.out.println("Answer: get");
+            System.out.println("Question 6: Name the Science Fiction movie this car appeared in?");  
+            System.out.println("Answer: Quantom Leap");
             System.out.println("Your choice:" +  ans[5]);
             System.out.println();
                  
