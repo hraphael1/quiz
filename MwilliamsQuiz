@@ -628,7 +628,7 @@ public class Quiz
     public void displayAnswers()
     {
   
-            System.out.println(" Question 1: Name this Auto Logo?");
+            System.out.println(" Question 1: Name this auto Logo?");
             System.out.println(" Answer: "TATA");
             System.out.println("Your choice:" + ans[0]);
             System.out.println();
