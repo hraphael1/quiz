@@ -546,12 +546,12 @@ public class Quiz
              imageLabel.setIcon(new ImageIcon("C:\\Users\\marco\\OneDrive\\"
              + "(DBMS2)(JAVA)(C#)(SAD1)"
             + "\\JAVA\\Assignment\\Assignment2\\cat.png"));
-            
-            Q.setText("Which one among these is not a class? ");  
-            rb[0].setText("Swing");
-            rb[1].setText("Actionperformed");
-            rb[2].setText("ActionEvent");  
-            rb[3].setText("Button");  
+                      
+            Q.setText("What is the name of Batman's car?");  
+            rb[0].setText("Batmobile");
+            rb[1].setText("Bat Cruzer");
+            rb[2].setText("Night Rider");  
+            rb[3].setText("Bat Vehicle"); 
         }  
         
         if(current==7)  
@@ -560,11 +560,11 @@ public class Quiz
              + "(DBMS2)(JAVA)(C#)(SAD1)"
             + "\\JAVA\\Assignment\\Assignment2\\dog.png"));
             
-            Q.setText("Which one among these is not a function of Object class?");  
-            rb[0].setText("toString");
-            rb[1].setText("finalize");
-            rb[2].setText("equals");  
-            rb[3].setText("getDocumentBase");         
+            Q.setText("Space X launched this vehicle in space");  
+            rb[0].setText("Lunar Rover");
+            rb[1].setText("Moon Rover");
+            rb[2].setText("Space X Rover");  
+            rb[3].setText("Telsa Roadster");         
         } 
         
         if(current==8)  
@@ -614,7 +614,7 @@ public class Quiz
         if(current==5)  
             return(rb[2].isSelected());  
         if(current==6)  
-            return(rb[1].isSelected());  
+            return(rb[0].isSelected());  
         if(current==7)  
             return(rb[3].isSelected());  
         if(current==8)  
@@ -659,14 +659,13 @@ public class Quiz
             System.out.println("Your choice:" +  ans[5]);
             System.out.println();
                  
-            System.out.println("Qustion 7: Which one among these is not a class? ");  
-            System.out.println("Answer: Actionperformed");
+            System.out.println("Qustion 7: What is the name of Batman's car? ");  
+            System.out.println("Answer: Batmobile");
             System.out.println("Your choice:" +  ans[6]);
             System.out.println();
               
-            System.out.println("Question 8: Which one among these is not"
-            + "a function of Object class?");  
-            System.out.println("Answer: getDocumentBase");  
+            System.out.println("Question 8: Space X launched this vehicle in space");  
+            System.out.println("Answer:Telsa Roadster");  
             System.out.println("Your choice:" +  ans[7]);
             System.out.println();
             
