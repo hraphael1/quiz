@@ -465,7 +465,7 @@ public class Quiz
             + "(DBMS2)(JAVA)(C#)(SAD1)"
             + "\\JAVA\\Assignment\\Assignment2\\tata.png"));
      
-            Q.setText("Name this Auto Logo");
+            Q.setText("Name this Auto Logo?");
             Q2.setText("Choose the correct answer");
             rb[0].setText("Tuscan");
             rb[1].setText("Tata");
@@ -480,7 +480,7 @@ public class Quiz
             + "(DBMS2)(JAVA)(C#)(SAD1)"
             + "\\JAVA\\Assignment\\Assignment2\\ford.jpg"));
             
-            Q.setText("Which auto company started the first assembly line?");  
+            Q.setText("Which auto mobile company started the first assembly line?");  
             rb[0].setText("Mercedez Benz");
             rb[1].setText("Toyota");
             rb[2].setText("Ford");
