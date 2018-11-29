@@ -517,28 +517,24 @@ public class Quiz
         
         if(current==4)  
         {  
-             imageLabel.setIcon(new ImageIcon("C:\\Users\\marco\\OneDrive\\"
-             + "(DBMS2)(JAVA)(C#)(SAD1)"
-            + "\\JAVA\\Assignment\\Assignment2\\plane.png"));
+             imageLabel.setIcon(new ImageIcon("C:\Users\Alberth Mckenzie\Desktop\quiz\\stepney.jpg"));
             
-            Q.setText("Which institute is best for java coaching?");  
-            rb[0].setText("Utek");
-            rb[1].setText("Aptech");
-            rb[2].setText("SSS IT");
-            rb[3].setText("jtek");  
+            Q.setText("What is a Stepney"?");  
+            rb[0].setText("A small tyre for mini vehicle");
+            rb[1].setText("A tyre used at a garage");
+            rb[2].setText("A spare tyre");
+            rb[3].setText("A dummy tyre for vehicles");  
         } 
         
         if(current==5)  
         {  
-             imageLabel.setIcon(new ImageIcon("C:\\Users\\marco\\OneDrive\\"
-             + "(DBMS2)(JAVA)(C#)(SAD1)"
-            + "\\JAVA\\Assignment\\Assignment2\\madrid.png"));
+             imageLabel.setIcon(new ImageIcon("C:\Users\Alberth Mckenzie\Desktop\quiz\\delorean.jpg"));
             
-            Q.setText("Which one among these is not a keyword?");  
-            rb[0].setText("class");
-            rb[1].setText("int");
-            rb[2].setText("get");
-            rb[3].setText("if");  
+            Q.setText("Name the Science Fiction movie this car appeared in??");  
+            rb[0].setText("Back to the past");
+            rb[1].setText("Quantom Leap");
+            rb[2].setText("Back to the Future");
+            rb[3].setText("Cars");  
         } 
         
         if(current==6)  
