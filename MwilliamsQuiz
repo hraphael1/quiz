@@ -462,9 +462,8 @@ public class Quiz
         if(current==0)  
         {  
             imageLabel.setIcon(new ImageIcon("C:\\Users\\marco\\OneDrive\\"
-            + "(DBMS2)(JAVA)(C#)(SAD1)"
-            + "\\JAVA\\Assignment\\Assignment2\\TATA.png"));
-     
+            + "(DBMS2)(JAVA)(C#)(SAD1)" + "\\JAVA\\Assignment\\Assignment2\\tata.png"));
+            
             Q.setText("Name this Auto Logo?");
             Q2.setText("Choose the correct answer");
             rb[0].setText("Tesla");
@@ -480,6 +479,7 @@ public class Quiz
             + "(DBMS2)(JAVA)(C#)(SAD1)"
             + "\\JAVA\\Assignment\\Assignment2\\cat.png"));
             
+
             Q.setText("Which auto company started the first assembly line?");  
             rb[0].setText("BMW");
             rb[1].setText("Toyota");
@@ -517,28 +517,24 @@ public class Quiz
         
         if(current==4)  
         {  
-             imageLabel.setIcon(new ImageIcon("C:\\Users\\marco\\OneDrive\\"
-             + "(DBMS2)(JAVA)(C#)(SAD1)"
-            + "\\JAVA\\Assignment\\Assignment2\\plane.png"));
+             imageLabel.setIcon(new ImageIcon("C:\Users\Alberth Mckenzie\Desktop\quiz\\stepney.jpg"));
             
-            Q.setText("Which institute is best for java coaching?");  
-            rb[0].setText("Utek");
-            rb[1].setText("Aptech");
-            rb[2].setText("SSS IT");
-            rb[3].setText("jtek");  
+            Q.setText("What is a Stepney?");  
+            rb[0].setText("A small tyre for mini vehicle");
+            rb[1].setText("A tyre used at a garage");
+            rb[2].setText("A spare tyre");
+            rb[3].setText("A dummy tyre for vehicles");  
         } 
         
         if(current==5)  
         {  
-             imageLabel.setIcon(new ImageIcon("C:\\Users\\marco\\OneDrive\\"
-             + "(DBMS2)(JAVA)(C#)(SAD1)"
-            + "\\JAVA\\Assignment\\Assignment2\\madrid.png"));
+             imageLabel.setIcon(new ImageIcon("C:\Users\Alberth Mckenzie\Desktop\quiz\\delorean.jpg"));
             
-            Q.setText("Which one among these is not a keyword?");  
-            rb[0].setText("class");
-            rb[1].setText("int");
-            rb[2].setText("get");
-            rb[3].setText("if");  
+            Q.setText("Name the Science Fiction movie this car appeared in?");  
+            rb[0].setText("Back to the past");
+            rb[1].setText("Quantom Leap");
+            rb[2].setText("Back to the Future");
+            rb[3].setText("Cars");  
         } 
         
         if(current==6)  
@@ -649,13 +645,13 @@ public class Quiz
              System.out.println("Your choice:" +  ans[3]);
              System.out.println();
             
-            System.out.println("Question 5: Which institute is best for java coaching?");  
-            System.out.println("Answer: SSS IT");
+            System.out.println("Question 5: What is a Stepney?");  
+            System.out.println("Answer:A spare tyre");
             System.out.println("Your choice:" +  ans[4]);
             System.out.println();
              
-            System.out.println("Question 6: Which one among these is not a keyword?");  
-            System.out.println("Answer: get");
+            System.out.println("Question 6: Name the Science Fiction movie this car appeared in?");  
+            System.out.println("Answer: Quantom Leap");
             System.out.println("Your choice:" +  ans[5]);
             System.out.println();
                  
