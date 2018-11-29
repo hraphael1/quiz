@@ -477,7 +477,7 @@ public class Quiz
         {  
             imageLabel.setIcon(new ImageIcon("C:\\Users\\marco\\OneDrive\\"
             + "(DBMS2)(JAVA)(C#)(SAD1)"
-            + "\\JAVA\\Assignment\\Assignment2\\cat.png"));
+            + "\\JAVA\\Assignment\\Assignment2\\ford.jpg"));
             
 
             Q.setText("Which auto company started the first assembly line?");  
