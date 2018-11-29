@@ -27,27 +27,59 @@ public class Quiz
       
       
    public void QuizDetails()
-  {
+   {
     
-    MenuBar menuB;
-      Menu menu;
-          
-       JFrame frame = new JFrame("Quiz Competition");
+        MenuBar menuB;
+          Menu menu;
+              
+           JFrame frame = new JFrame("Quiz Competition");
+         
+        frame.setVisible(true);
+        frame.getContentPane().setBackground(Color.WHITE);
+        //frame.setLayout(new FlowLayout(FlowLayout.CENTER));
+        frame.setBounds(300,200,680,800);
+        frame.setLayout(null);
+         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);  
+         
      
-    frame.setVisible(true);
-    frame.getContentPane().setBackground(Color.WHITE);
-    //frame.setLayout(new FlowLayout(FlowLayout.CENTER));
-    frame.setBounds(300,200,680,800);
-    frame.setLayout(null);
-     frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);  
-     
-     
-     imageLabel = new JLabel();
-    JPanel pic = new JPanel();
-    pic.setBounds(150,15,300,300);
-     pic.setBackground(Color.GREEN);
-    frame.add(pic);
-    pic.add(imageLabel);
+         imageLabel = new JLabel();
+        JPanel pic = new JPanel();
+        pic.setBounds(150,15,300,300);
+         pic.setBackground(Color.GREEN);
+        frame.add(pic);
+        pic.add(imageLabel);
+        
+    
+        JFrame frame1 = new JFrame("Quiz Competition");  //Welcome Page
+        frame1.setVisible(true);
+        frame1.setSize(600, 400);
+        frame1.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        
+        panel1 = new JPanel(new FlowLayout()); //layout of the components on the panel
+        panel1.setBackground(Color.ORANGE);
+        
+        
+        label1 = new JLabel("Welcome to the Quiz Competition"); //Welcome message
+        
+        JButton buttonK = new JButton("OK"); //creates the ok button
+        JButton buttonCancel = new JButton("CANCEL"); //creates the cancel button
+        
+        
+        panel1.add(label);
+        
+        
+        buttonK.addActionListener(this);
+        panel1.add(buttonK);
+        buttonCancel.addActionListener(this);
+        panel1.add(buttonCancel);
+        
+        frame1.add(panel);  //WelcomePage
+      
+        
+           
+             
+            
+            
      
     //for ( int w=0; w<10;w++)
      //{
@@ -116,6 +148,8 @@ public class Quiz
     endButtons.setBounds(0,570,680,40);
     endButtons.setBackground(Color.PINK);
     frame.add(endButtons);
+    
+   
 
     JButton button2 = new JButton("Check");
     endButtons.add(button2);
@@ -127,6 +161,22 @@ public class Quiz
     
     JButton button3 = new JButton (" Previous");
     endButtons.add(button3);
+    
+    
+   buttonK.addActionListener( new ActionListener()
+   {
+       public void actionPerformed( ActionEvent evt)  //Ok and Cancel buttons listeners
+          {
+            if(evt.getSource()==buttonK) 
+                JOptionPane.showMessageDialog(null,"GET READY!!");
+            frame1.dispose();
+                
+                              
+            if (evt.getSource()==buttonCancel)
+            System.exit( 0 );
+            
+            
+        
     
     
      button.addActionListener( new ActionListener()
@@ -443,7 +493,11 @@ public class Quiz
          {
             frame.dispatchEvent(new WindowEvent(frame, WindowEvent.WINDOW_CLOSING));
             }
-        });      
+        });  
+        
+       
+     
+    
     
      menu.add(I1);
      menu.addSeparator();
