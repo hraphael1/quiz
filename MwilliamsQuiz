@@ -462,15 +462,14 @@ public class Quiz
         if(current==0)  
         {  
             imageLabel.setIcon(new ImageIcon("C:\\Users\\marco\\OneDrive\\"
-            + "(DBMS2)(JAVA)(C#)(SAD1)"
-            + "\\JAVA\\Assignment\\Assignment2\\tata.png"));
-     
+            + "(DBMS2)(JAVA)(C#)(SAD1)" + "\\JAVA\\Assignment\\Assignment2\\tata.png"));
+            
             Q.setText("Name this Auto Logo?");
             Q2.setText("Choose the correct answer");
-            rb[0].setText("Tuscan");
-            rb[1].setText("Tata");
-            rb[2].setText("Lincoln");
-            rb[3].setText("Tesla");
+            rb[0].setText("Tesla");
+            rb[1].setText("TATA");
+            rb[2].setText("Tuscan");
+            rb[3].setText("Lincoln");
            
         }
          
@@ -478,13 +477,14 @@ public class Quiz
         {  
             imageLabel.setIcon(new ImageIcon("C:\\Users\\marco\\OneDrive\\"
             + "(DBMS2)(JAVA)(C#)(SAD1)"
-            + "\\JAVA\\Assignment\\Assignment2\\ford.jpg"));
+            + "\\JAVA\\Assignment\\Assignment2\\cat.png"));
             
-            Q.setText("Which auto mobile company started the first assembly line?");  
-            rb[0].setText("Mercedez Benz");
+
+            Q.setText("Which auto company started the first assembly line?");  
+            rb[0].setText("BMW");
             rb[1].setText("Toyota");
             rb[2].setText("Ford");
-            rb[3].setText("BMW");  
+            rb[3].setText("Mercedez Benz");  
             
        
         }  
@@ -542,12 +542,12 @@ public class Quiz
              imageLabel.setIcon(new ImageIcon("C:\\Users\\marco\\OneDrive\\"
              + "(DBMS2)(JAVA)(C#)(SAD1)"
             + "\\JAVA\\Assignment\\Assignment2\\cat.png"));
-            
-            Q.setText("Which one among these is not a class? ");  
-            rb[0].setText("Swing");
-            rb[1].setText("Actionperformed");
-            rb[2].setText("ActionEvent");  
-            rb[3].setText("Button");  
+                      
+            Q.setText("What is the name of Batman's car?");  
+            rb[0].setText("Batmobile");
+            rb[1].setText("Bat Cruzer");
+            rb[2].setText("Night Rider");  
+            rb[3].setText("Bat Vehicle"); 
         }  
         
         if(current==7)  
@@ -556,11 +556,11 @@ public class Quiz
              + "(DBMS2)(JAVA)(C#)(SAD1)"
             + "\\JAVA\\Assignment\\Assignment2\\dog.png"));
             
-            Q.setText("Which one among these is not a function of Object class?");  
-            rb[0].setText("toString");
-            rb[1].setText("finalize");
-            rb[2].setText("equals");  
-            rb[3].setText("getDocumentBase");         
+            Q.setText("Space X launched this vehicle in space");  
+            rb[0].setText("Lunar Rover");
+            rb[1].setText("Moon Rover");
+            rb[2].setText("Space X Rover");  
+            rb[3].setText("Telsa Roadster");         
         } 
         
         if(current==8)  
@@ -569,11 +569,11 @@ public class Quiz
             + "(DBMS2)(JAVA)(C#)(SAD1)"
             + "\\JAVA\\Assignment\\Assignment2\\barca.png"));
             
-            Q.setText("Which function is not present in Applet class?");  
-            rb[0].setText("init");
-            rb[1].setText("main");
-            rb[2].setText("start");
-            rb[3].setText("destroy");  
+            Q.setText("What is the name of the vehicle used on the moon by astronauts?");  
+            rb[0].setText("Tesla");
+            rb[1].setText("Space X Rover");
+            rb[2].setText("Lunar Rover");
+            rb[3].setText("Moon Rover");  
         } 
         
         if(current==9)  
@@ -582,11 +582,11 @@ public class Quiz
              + "(DBMS2)(JAVA)(C#)(SAD1)"
             + "\\JAVA\\Assignment\\Assignment2\\plane.png"));
             
-            Q.setText("Which one among these is not a valid component?");  
-            rb[0].setText("JButton");
-            rb[1].setText("JList");
-            rb[2].setText("JButtonGroup");  
-            rb[3].setText("JTextArea");  
+            Q.setText("Name this Auto Part");  
+            rb[0].setText("Spark Plug");
+            rb[1].setText("Glow Plug");
+            rb[2].setText("Ignition Plug");  
+            rb[3].setText("Spark Engine Plug");  
         } 
         
         
@@ -610,13 +610,13 @@ public class Quiz
         if(current==5)  
             return(rb[2].isSelected());  
         if(current==6)  
-            return(rb[1].isSelected());  
+            return(rb[0].isSelected());  
         if(current==7)  
             return(rb[3].isSelected());  
         if(current==8)  
-            return(rb[1].isSelected());  
-        if(current==9)  
             return(rb[2].isSelected());  
+        if(current==9)  
+            return(rb[0].isSelected());  
         return false;  
     }  
     
@@ -624,8 +624,8 @@ public class Quiz
     public void displayAnswers()
     {
   
-            System.out.println(" Question 1:Name this Auto Logo");
-            System.out.println(" Answer: TATA");
+            System.out.println(" Question 1: Name this auto Logo?");
+            System.out.println(" Answer: "TATA");
             System.out.println("Your choice:" + ans[0]);
             System.out.println();
             
@@ -655,26 +655,23 @@ public class Quiz
             System.out.println("Your choice:" +  ans[5]);
             System.out.println();
                  
-            System.out.println("Qustion 7: Which one among these is not a class? ");  
-            System.out.println("Answer: Actionperformed");
+            System.out.println("Qustion 7: What is the name of Batman's car? ");  
+            System.out.println("Answer: Batmobile");
             System.out.println("Your choice:" +  ans[6]);
             System.out.println();
               
-            System.out.println("Question 8: Which one among these is not"
-            + "a function of Object class?");  
-            System.out.println("Answer: getDocumentBase");  
+            System.out.println("Question 8: Space X launched this vehicle in space");  
+            System.out.println("Answer:Telsa Roadster");  
             System.out.println("Your choice:" +  ans[7]);
             System.out.println();
             
-            System.out.println("Question 9: Which function is not present"
-            + "in Applet class?");  
-            System.out.println("Answer: main");
+            System.out.println("Question 9: What is the name vehicle used on the moon by astronauts?");  
+            System.out.println("Answer: Lunar Rover");
             System.out.println("Your choice:" +  ans[8]);
             System.out.println(); 
             
-            System.out.println("Question 10: Which one among these is not"
-            +"a valid component?"); 
-            System.out.println("Answer: JButtonGroup");  
+            System.out.println("Question 10: Name this Auto Part: ); 
+            System.out.println("Answer: Spark Plug");  
             System.out.println("Your choice:" +  ans[9]);
             System.out.println();
              
