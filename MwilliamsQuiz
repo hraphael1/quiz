@@ -547,26 +547,26 @@ public class Quiz
         {  
              imageLabel.setIcon(new ImageIcon("C:\\Users\\marco\\OneDrive\\"
              + "(DBMS2)(JAVA)(C#)(SAD1)"
-            + "\\JAVA\\Assignment\\Assignment2\\dog.png"));
+            + "\\JAVA\\Assignment\\Assignment2\\mb.png"));
             
-            Q.setText("Which package is directly available to our class without importing it?");  
-            rb[0].setText("swing");
-            rb[1].setText("applet");
-            rb[2].setText("net");
-            rb[3].setText("lang");  
+            Q.setText("Mercedes cars belong to which Country?");  
+            rb[0].setText("U.S.A");
+            rb[1].setText("FRANCE");
+            rb[2].setText("GERMANY");
+            rb[3].setText("JAPAN");  
         }  
         
         if(current==3)  
         {  
              imageLabel.setIcon(new ImageIcon("C:\\Users\\marco\\OneDrive\\"
              + "(DBMS2)(JAVA)(C#)(SAD1)"
-            + "\\JAVA\\Assignment\\Assignment2\\barca.png"));
+            + "\\JAVA\\Assignment\\Assignment2\convertible.jpg\"));
             
-            Q.setText("String class is defined in which package?");  
-            rb[0].setText("lang");
-            rb[1].setText("Swing");
-            rb[2].setText("Applet");
-            rb[3].setText("awt");  
+            Q.setText("What is called the type of body of a car, of which the top is fabric and could be folded down?");  
+            rb[0].setText("CONVERTIBLE");
+            rb[1].setText("RETRACTABLE");
+            rb[2].setText("FOLDABLES");
+            rb[3].setText("REMOVABLE");  
         }  
         
         if(current==4)  
@@ -688,14 +688,14 @@ public class Quiz
             System.out.println("Your choice:" +  ans[1]);
             System.out.println();
             
-            System.out.println("Question 3: Which package is directly available to our" + 
+            System.out.println("Question 3: The name of the Country Mercedes cars belong to is" + 
             "class without importing it?");  
-             System.out.println(" Answer: lang"); 
+             System.out.println(" Answer: GERMANY"); 
              System.out.println("Your choice:" +  ans[2]);
              System.out.println();
             
-            System.out.println("Question 4: String class is defined in which package?");  
-             System.out.println(" Answer:  lang");
+            System.out.println("Question 4: The name of this body part are called.");  
+             System.out.println(" Answer:  CONVERTIBLE");
              System.out.println("Your choice:" +  ans[3]);
              System.out.println();
             
