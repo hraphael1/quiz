@@ -677,7 +677,7 @@ public class Quiz
             System.out.println("Your choice:" +  ans[8]);
             System.out.println(); 
             
-            System.out.println("Question 10: Name this Auto Part"
+            System.out.println("Question 10: Name this Auto Part: "
             +"a valid component?"); 
             System.out.println("Answer: Spark Plug");  
             System.out.println("Your choice:" +  ans[9]);
