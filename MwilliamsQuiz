@@ -463,7 +463,7 @@ public class Quiz
         {  
             imageLabel.setIcon(new ImageIcon("C:\\Users\\marco\\OneDrive\\"
             + "(DBMS2)(JAVA)(C#)(SAD1)"
-            + "\\JAVA\\Assignment\\Assignment2\\tatapng"));
+            + "\\JAVA\\Assignment\\Assignment2\\tata.png"));
      
             Q.setText("Name this Auto Logo");
             Q2.setText("Choose the correct answer");
