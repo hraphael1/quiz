@@ -622,7 +622,7 @@ public class Quiz      //Main Class contaning the Frame, panels, buttons and cor
         {  
             imageLabel.setIcon(new ImageIcon("C:\\Users\\marco\\OneDrive\\"
             + "(DBMS2)(JAVA)(C#)(SAD1)"
-            + "\\JAVA\\Assignment\\Assignment2\\barca.png"));
+            + "\\JAVA\\Assignment\\Assignment2\\lunarrover.jpg"));
             
             Q.setText("What is the name of the vehicle used on the moon by astronauts?");  
             rb[0].setText("Tesla");
@@ -635,7 +635,7 @@ public class Quiz      //Main Class contaning the Frame, panels, buttons and cor
         {  
              imageLabel.setIcon(new ImageIcon("C:\\Users\\marco\\OneDrive\\"
              + "(DBMS2)(JAVA)(C#)(SAD1)"
-            + "\\JAVA\\Assignment\\Assignment2\\plane.png"));
+            + "\\JAVA\\Assignment\\Assignment2\\spark.jpg"));
             
             Q.setText("Name this Auto Part");  
             rb[0].setText("Spark Plug");
