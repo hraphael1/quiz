@@ -18,21 +18,21 @@ public class Quiz
       JLabel imageLabel,R;
       JLabel Q,Q2;
       
-      String ans[] = new String[10];
-      int current=0,count=0;
+      String ans[] = new String[10];         // string array to store questions for the quiz from 1 - 10
+      int current=0,count=0;                 // initializing two counter varibles 
       
-     ButtonGroup bg= new ButtonGroup();
-      MenuItem I1,I2,I3;
+     ButtonGroup bg= new ButtonGroup();     // this component let the user know which button is active or inactive and the instance variable let only one button can be selected at a given time
+      MenuItem I1,I2,I3;                   //menu labels at the top of the window pane
    
       
       
-   public void QuizDetails()
+   public void QuizDetails()                // function outlining the quiz details 
    {
     
         MenuBar menuB;
           Menu menu;
               
-           JFrame frame = new JFrame("Quiz Competition");
+           JFrame frame = new JFrame("Quiz Competition");   //creating of a frame for quiz screen 
          
         frame.setVisible(true);
         frame.getContentPane().setBackground(Color.WHITE);
@@ -50,7 +50,7 @@ public class Quiz
         pic.add(imageLabel);
         
     
-        JFrame frame1 = new JFrame("Quiz Competition");  //Welcome Page
+        JFrame frame1 = new JFrame("Quiz Competition");  //Welcome Page for the quiz 
         frame1.setVisible(true);
         frame1.setSize(600, 400);
         frame1.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -59,10 +59,10 @@ public class Quiz
         panel1.setBackground(Color.ORANGE);
         
         
-        label1 = new JLabel("Welcome to the Quiz Competition"); //Welcome message
+        label1 = new JLabel("Welcome to the Quiz Competition"); //Welcome message to let user know they have entered the quiz
         
-        JButton buttonK = new JButton("OK"); //creates the ok button
-        JButton buttonCancel = new JButton("CANCEL"); //creates the cancel button
+        JButton buttonK = new JButton("OK"); //creates the ok button for submission
+        JButton buttonCancel = new JButton("CANCEL"); //creates the cancel button for exiting 
         
         
         panel1.add(label);
@@ -151,15 +151,15 @@ public class Quiz
     
    
 
-    JButton button2 = new JButton("Check");
+    JButton button2 = new JButton("Check");      //creating a check button to see if the answer selected is correct
     endButtons.add(button2);
     button2.setEnabled(false);
     
-    JButton button = new JButton("Next");
+    JButton button = new JButton("Next");    //creating a next button to skip to the next question
     endButtons.add(button);
     
     
-    JButton button3 = new JButton (" Previous");
+    JButton button3 = new JButton (" Previous");  //creating a previous button to go the the previous question
     endButtons.add(button3);
     
     
@@ -181,7 +181,7 @@ public class Quiz
     
      button.addActionListener( new ActionListener()
      {
-         public void actionPerformed(ActionEvent d) 
+         public void actionPerformed(ActionEvent d)  
          {
              if (d.getSource() == button)
              {
@@ -190,6 +190,7 @@ public class Quiz
                  count = count +1;
                  current++;
                   
+              // condition statements collecting all the questions answers and comparing to the correct answers based on the system    
                 
                
                 if(current == 1){
@@ -509,7 +510,7 @@ public class Quiz
      frame.setMenuBar(menuB);
      
     }
-    
+    //function setting the corresponding images to the questions description 
     public void set(){
         
         
@@ -649,7 +650,7 @@ public class Quiz
             
         }
         
-     public boolean check()  
+     public boolean check()                     //function to check the answers selected by the user with the correct answers from the system
     {  
         if(current==0)  
             return(rb[1].isSelected());  
@@ -675,7 +676,7 @@ public class Quiz
     }  
     
      
-    public void displayAnswers()
+    public void displayAnswers()     // function to display all the questions and answers selected 
     {
   
             System.out.println(" Question 1: Name this auto Logo?");
