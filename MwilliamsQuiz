@@ -183,17 +183,17 @@ public class Quiz      //Main Class contaning the Frame, panels, buttons and cor
      {
          public void actionPerformed(ActionEvent d)  
          {
-             if (d.getSource() == button)
+             if (d.getSource() == button)//if the next button is selected
              {
-                 if (check())
+                 if (check()) //check if the answer selected for that question is correct
                  
-                 count = count +1;
-                 current++;
+                 count = count +1;//then add one to the number of correct questions answered
+                 current++;//current tells /keeps a track of each question
                   
               // condition statements collecting all the questions answers and comparing to the correct answers based on the system    
                 
                
-                if(current == 1){
+                if(current == 1){//if the current question is question one then check which answer is selected and store it in the ans array
                  if ( rb[0].isSelected())
                {
                   ans[0] =rb[0].getText();
@@ -432,10 +432,10 @@ public class Quiz      //Main Class contaning the Frame, panels, buttons and cor
      {
          public void actionPerformed(ActionEvent f) 
          {
-             if (f.getSource() == button3)
+             if (f.getSource() == button3)//if the previous button is selected
              {
                  if (check())
-                 count = count -1;
+                 count = count -1;//
                  current--;
                 
                
@@ -596,7 +596,7 @@ public class Quiz      //Main Class contaning the Frame, panels, buttons and cor
         {  
              imageLabel.setIcon(new ImageIcon("C:\\Users\\marco\\OneDrive\\"
              + "(DBMS2)(JAVA)(C#)(SAD1)"
-            + "\\JAVA\\Assignment\\Assignment2\\cat.png"));
+            + "\\JAVA\\Assignment\\Assignment2\\batmobile.png"));
                       
             Q.setText("What is the name of Batman's car?");  
             rb[0].setText("Batmobile");
@@ -609,7 +609,7 @@ public class Quiz      //Main Class contaning the Frame, panels, buttons and cor
         {  
              imageLabel.setIcon(new ImageIcon("C:\\Users\\marco\\OneDrive\\"
              + "(DBMS2)(JAVA)(C#)(SAD1)"
-            + "\\JAVA\\Assignment\\Assignment2\\dog.png"));
+            + "\\JAVA\\Assignment\\Assignment2\\roadster.png"));
             
             Q.setText("Space X launched this vehicle in space");  
             rb[0].setText("Lunar Rover");
