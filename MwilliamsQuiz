@@ -1,4 +1,5 @@
 
+
 /**
  * Quiz class where the questions and frame work is done
  *
@@ -45,51 +46,15 @@ public class Quiz      //Main Class contaning the Frame, panels, buttons and cor
          imageLabel = new JLabel();     //Adding program aesthetics
         JPanel pic = new JPanel();
         pic.setBounds(150,15,300,300);
-         pic.setBackground(Color.GREEN);
+         pic.setBackground(Color.WHITE);
         frame.add(pic);
         pic.add(imageLabel);
-        
+       
     
-        JFrame frame1 = new JFrame("Quiz Competition");  //Welcome Page for the quiz 
-        frame1.setVisible(true);
-        frame1.setSize(600, 400);
-        frame1.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        
-        panel1 = new JPanel(new FlowLayout()); //layout of the components on the panel
-        panel1.setBackground(Color.ORANGE);
-        
-        
-        label1 = new JLabel("Welcome to the Quiz Competition"); //Welcome message to let user know they have entered the quiz
-        
-        JButton buttonK = new JButton("OK"); //creates the ok button for submission
-        JButton buttonCancel = new JButton("CANCEL"); //creates the cancel button for exiting 
-        
-        
-        panel1.add(label);
-        
-        
-        buttonK.addActionListener(this);
-        panel1.add(buttonK);
-        buttonCancel.addActionListener(this);
-        panel1.add(buttonCancel);
-        
-        frame1.add(panel);  //WelcomePage
-      
-        
-           
-             
-            
-            
-     
-    //for ( int w=0; w<10;w++)
-     //{
-      // P[w] = new JLabel();
-      // frame.add(P[w]);
-    //}
     
      JPanel question = new JPanel();
     question.setBounds(0,319,680,40);      //Adding program aesthetics
-    question.setBackground(Color.RED);
+    question.setBackground(Color.WHITE);
     frame.add(question);
     
      Q= new JLabel();
@@ -101,7 +66,7 @@ public class Quiz      //Main Class contaning the Frame, panels, buttons and cor
     
      JPanel instruction = new JPanel();
     instruction.setBounds(135,364,400,40);
-    instruction.setBackground(Color.YELLOW);
+    instruction.setBackground(Color.WHITE);
     frame.add(instruction);
     
      Q2= new JLabel();
@@ -130,7 +95,7 @@ public class Quiz      //Main Class contaning the Frame, panels, buttons and cor
      
      JPanel end = new JPanel(new FlowLayout());
     end.setBounds(0,525,680,40);
-    end.setBackground(Color.ORANGE);
+    end.setBackground(Color.WHITE);
     frame.add(end);
     
      R=new JLabel("Result");
@@ -146,7 +111,7 @@ public class Quiz      //Main Class contaning the Frame, panels, buttons and cor
      
       JPanel endButtons = new JPanel(new FlowLayout());
     endButtons.setBounds(0,570,680,40);
-    endButtons.setBackground(Color.PINK);    //Adding program aesthetics
+   endButtons.setBackground(Color.WHITE);    //Adding program aesthetics
     frame.add(endButtons);
     
    
@@ -163,18 +128,7 @@ public class Quiz      //Main Class contaning the Frame, panels, buttons and cor
     endButtons.add(button3);
     
     
-   buttonK.addActionListener( new ActionListener()
-   {
-       public void actionPerformed( ActionEvent evt)  //Ok and Cancel buttons listeners
-          {
-            if(evt.getSource()==buttonK) 
-                JOptionPane.showMessageDialog(null,"GET READY!!");
-            frame1.dispose();
-                
-                              
-            if (evt.getSource()==buttonCancel)
-            System.exit( 0 );
-            
+          
             
         
     
@@ -553,8 +507,8 @@ public class Quiz      //Main Class contaning the Frame, panels, buttons and cor
             Q.setText("Mercedes cars belong to which country?");  
             rb[0].setText("U.S.A");
             rb[1].setText("FRANCE");
-            rb[2].setText("GERMANY");
-            rb[3].setText("JAPAN");  
+            rb[2].setText("JAPAN");
+            rb[3].setText("GERMANY");  
         }  
         
         if(current==3)  
@@ -572,7 +526,9 @@ public class Quiz      //Main Class contaning the Frame, panels, buttons and cor
         
         if(current==4)  
         {  
-             imageLabel.setIcon(new ImageIcon("C:\Users\Alberth Mckenzie\Desktop\quiz\\stepney.jpg"));
+             imageLabel.setIcon(new ImageIcon("C:\\Users\\marco\\OneDrive\\"
+             + "(DBMS2)(JAVA)(C#)(SAD1)"
+            + "\\JAVA\\Assignment\\Assignment2\\stepney.jpg"));
             
             Q.setText("What is a Stepney?");  
             rb[0].setText("A small tyre for mini vehicle");
@@ -583,7 +539,9 @@ public class Quiz      //Main Class contaning the Frame, panels, buttons and cor
         
         if(current==5)  
         {  
-             imageLabel.setIcon(new ImageIcon("C:\Users\Alberth Mckenzie\Desktop\quiz\\delorean.jpg"));
+             imageLabel.setIcon(new ImageIcon("C:\\Users\\marco\\OneDrive\\"
+             + "(DBMS2)(JAVA)(C#)(SAD1)"
+            + "\\JAVA\\Assignment\\Assignment2\\delorean.jpg"));
             
             Q.setText("Name the Science Fiction movie this car appeared in?");  
             rb[0].setText("Back to the past");
@@ -677,10 +635,10 @@ public class Quiz      //Main Class contaning the Frame, panels, buttons and cor
     
      
     public void displayAnswers()     // function to display all the questions and answers selected 
-    {
+      {
   
             System.out.println(" Question 1: Name this auto Logo?");
-            System.out.println(" Answer: "TATA");
+            System.out.println(" Answer: TATA");
             System.out.println("Your choice:" + ans[0]);
             System.out.println();
             
@@ -689,8 +647,7 @@ public class Quiz      //Main Class contaning the Frame, panels, buttons and cor
             System.out.println("Your choice:" +  ans[1]);
             System.out.println();
             
-            System.out.println("Question 3: The name of the Country is." + 
-            "class without importing it?");  
+            System.out.println("Question 3: The name of the Country is.");  
              System.out.println(" Answer: GERMANY"); 
              System.out.println("Your choice:" +  ans[2]);
              System.out.println();
@@ -725,18 +682,19 @@ public class Quiz      //Main Class contaning the Frame, panels, buttons and cor
             System.out.println("Your choice:" +  ans[8]);
             System.out.println(); 
             
-            System.out.println("Question 10: Name this Auto Part: ); 
+            System.out.println("Question 10: Name this Auto Part: "); 
             System.out.println("Answer: Spark Plug");  
             System.out.println("Your choice:" +  ans[9]);
             System.out.println();
              
 
-     }  
+       }  
     
+   
     
-     
-     
-  }
+    }
+  
+
 
     
 
