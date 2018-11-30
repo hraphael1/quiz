@@ -11,9 +11,9 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;  
 
-public class Quiz 
+public class Quiz      //Main Class contaning the Frame, panels, buttons and core codeing of the program.
 {
-      JRadioButton rb[] = new JRadioButton[4];
+      JRadioButton rb[] = new JRadioButton[4]; // Creating/assigning values to the JRaidButton array
       
       JLabel imageLabel,R;
       JLabel Q,Q2;
@@ -42,7 +42,7 @@ public class Quiz
          frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);  
          
      
-         imageLabel = new JLabel();
+         imageLabel = new JLabel();     //Adding program aesthetics
         JPanel pic = new JPanel();
         pic.setBounds(150,15,300,300);
          pic.setBackground(Color.GREEN);
@@ -88,7 +88,7 @@ public class Quiz
     //}
     
      JPanel question = new JPanel();
-    question.setBounds(0,319,680,40);
+    question.setBounds(0,319,680,40);      //Adding program aesthetics
     question.setBackground(Color.RED);
     frame.add(question);
     
@@ -121,7 +121,7 @@ public class Quiz
        
        
       }
-     rb[0].setBounds(220,440,240,80);
+     rb[0].setBounds(220,440,240,80);       // Setting positions and size of buttons
      rb[1].setBounds(220,460,250,80);
      rb[2].setBounds(220,480,260,80);
      rb[3].setBounds(220,500,270,80);
@@ -146,7 +146,7 @@ public class Quiz
      
       JPanel endButtons = new JPanel(new FlowLayout());
     endButtons.setBounds(0,570,680,40);
-    endButtons.setBackground(Color.PINK);
+    endButtons.setBackground(Color.PINK);    //Adding program aesthetics
     frame.add(endButtons);
     
    
