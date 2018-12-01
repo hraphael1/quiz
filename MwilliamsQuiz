@@ -517,7 +517,7 @@ public class Quiz      //Main Class contaning the Frame, panels, buttons and cor
              + "(DBMS2)(JAVA)(C#)(SAD1)"
             + "\\JAVA\\Assignment\\Assignment2\\convertible.jpg"));
             
-            Q.setText("what is called the type of body of  a car, of which the top is fabric and could be folded down?");  
+            Q.setText("what type of car top can be folded down?");  
             rb[0].setText("CONVERTIBLE");
             rb[1].setText("RETRACTABLE");
             rb[2].setText("FOLDABLES");
